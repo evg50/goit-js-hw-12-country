@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://evg50.github.io/parcel-project-template",
+  "homepage": "https://evg50.github.io/goit-js-hw-12-country",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-country/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },

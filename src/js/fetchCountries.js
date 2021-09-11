@@ -1,10 +1,10 @@
 import getRefs from "./refs";
 import countriesCardTpl from "../templates/countries.hbs";
 import countryCardTpl from "../templates/country.hbs";
-
+import debounce from "lodash.debounce";
 import API from "./Api";
 
-const debounce = require("lodash.debounce");
+// const debounce = require("lodash.debounce");
 // console.log(debounce);
 
 const refs = getRefs;
@@ -48,8 +48,7 @@ function renderCountriesCard(countries) {
 }
 
 function renderAlarm() {
-    console.log("very much");
-    
+  console.log("very much");
 }
 
 function render(markup) {
